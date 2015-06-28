@@ -1,0 +1,20 @@
+name: BankNote
+main: com.github.Gamecube762.BankNote.Main
+author: Gamecube762
+version: 0.1.0
+prefix: BankNote
+commands:
+   BankNote:
+      description: Create a BankNote
+      usage: /<command> <amount> 
+      permission: banknote.command
+      permission-message: You don't have <permission>
+   withdraw:
+      description: Create a BankNote
+      usage: /<command> <amount>
+      permission: banknote.command
+      permission-message: You don't have <permission>
+permissions:
+   banknote.command:
+      description: command
+      default: true
